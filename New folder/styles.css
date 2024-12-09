@@ -1,0 +1,15 @@
+p{
+    position: relative;
+    z-index: 1;
+    color: #04aa6d;
+    font-size: 36px !important;
+}
+
+}
+.right{
+    float: right;
+
+}
+.left{
+    float: left;
+}

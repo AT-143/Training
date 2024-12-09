@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            top: 0;
+            position: absolute;
+            transition: top 2s ease-out 2s  ;
+            /**
+            syntax = css property then duration timing function then duration (by default =0)(optional)
+            ease - start withs slow, speed up then slow down
+            ease-in - starts with slow, then ends with fast
+            ease-out = reverse of ease in(start with fast then ends with slow)
+            ease-in-out = both ease in and ease out
+            linear = constant speed
+
+            **/
+        }
+        .box:hover{
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

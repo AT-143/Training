@@ -1,0 +1,83 @@
+body{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+   
+    
+}
+.name{
+    font-family: "Yuji Mai", serif;
+    font-weight: bolder;
+    font-style: normal;
+    
+}
+
+.aboutme-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+  
+}
+
+.hero-text{
+    font-size: 63px;
+}
+
+.lead{
+    font-size: 40px !important;
+    color: red !important;
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: #FF6F61 !important; 
+}
+ .nav-items .nav-link a{
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    transition: font-size 0.3s ease;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition: font-size 0.3s ease;
+}
+
+
+.container-img{
+    position: relative;
+    display: inline-block;
+}
+.overlay{
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FF6F61;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.container-img:hover .overlay{
+    opacity: 100;
+}
+.card{
+    height: 500px;
+    width: 300px;
+    margin: 10px 70px 0px 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    
+}
+
+.card-gap{
+    padding: 100px 100px 100px 100px;
+}

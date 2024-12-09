@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-image: linear-gradient(to bottom, #B3C8CF 0%, #2638db 100%);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #FF7F3E;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 16px;
+    padding: 0 15px;
+    color: white;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: #52c5ff;
+    transition: 0.2s;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero{
+    padding-top: 100px;
+}
+
+.hero img{
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    max-width: 440px;
+    border-style: none;
+    width: 300px;
+    height: 300px;
+}
+
+.hero h1{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px 10px;
+}
+
+.aboutme{
+    width: 90%;
+    max-width: 1100px;
+    background-color: white;
+    text-align: center;
+    padding: 40px 50px 50px;
+    margin:  0 auto;
+    height: auto;
+    box-shadow: 10px 10px 0px rgb(0 0 0/0.1);
+    border-radius: 10px;
+}
+
+.aboutme-section{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aboutme-image{
+ background-image: url("sources/Anjesh.jpg");
+ height: 450px;
+ width: 400px;
+ background-size: cover;
+ background-position: center;
+}
+
+.aboutme-text{
+  height: auto;
+  width: 40%;
+  margin-left: 40px;
+  text-align: center;
+   }
+
+footer{
+    height: 80px;
+    background-color: #1f2027;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.socialmedia{
+    margin-left: auto;
+    font-size: 200%;
+    width: auto;
+    
+}
+
+.socialmedia a{
+    color: white;
+    transition: 0.2s;
+}
+
+.socialmedia a i:hover{
+    color: lightblue;
+    transition: 0.2s;
+}
+
+.copyright{
+    color: white;
+}
+
+.projects{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 50px;
+ padding: 40px 0px 40px 0px;
+ border-radius: 10px;
+}
+
+.projects h1{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px 10px;
+}
+.project1,.project2{
+    width: 370px;
+    height: 370px;
+    background-color: white;
+    border-radius: 5%;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 0px rgb(0 0 0/0.1);;
+    
+}
+
+.contactme{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    gap: 10px;
+    width: auto;
+}
+
+.form{
+    width: 25%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.projects h3{
+    font-size: 24px;
+}
+
+.projects span{
+    font-size: 20px;
+}   
+
