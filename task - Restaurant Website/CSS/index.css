@@ -1,0 +1,133 @@
+body{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+
+.hero-section{
+    background-image: url('../images/hero-3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Style the card body */
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    height: 100%;  /* Ensure the body takes full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align text at the bottom */
+}
+
+/* Style for card hover effect */
+.menu-card:hover .card-body {
+    opacity: 1;
+}
+
+/* Fixed size for card */
+.menu-card {
+    position: relative;
+    overflow: hidden;
+    height: 300px;   
+    width: 100%;     
+    max-width: 300px; 
+    margin: auto;    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.3s ease; /* Optional: to add smooth hover scaling */
+}
+
+/* Scale image on hover */
+.menu-card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+/* Ensure the image fills the card but doesn't stretch */
+.card-img-top {
+    width: 100%;
+    height: 100%; /* Fixed height for image */
+    object-fit: cover; /* Keeps aspect ratio intact */
+}
+
+/* Add a container for menu items to make it responsive */
+@media (max-width: 768px) {
+    .menu-card {
+        max-width: 100%; /* Allow cards to take full width on smaller screens */
+    }
+}
+
+.nav-link{
+    font-size: 14px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+
+}
+
+.nav-link:hover{
+    font-size: 15px;
+    color: blue;
+}
+
+.navbar-brand {
+font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .navbar-brand:focus,
+  .navbar-brand:hover {
+    color: #195ae6;
+  }
+  
+  .navbar-brand:focus:after,
+  .navbar-brand:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .navbar-brand:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #e1e1e1;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
