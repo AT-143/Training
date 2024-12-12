@@ -1,0 +1,80 @@
+ /* General Styles */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.story, .mission, .values {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.story img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.story h3, .mission h3, .values h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5cb85c;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #5cb85c;
+}
+
+.team-member h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

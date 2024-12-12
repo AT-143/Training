@@ -152,3 +152,7 @@ font-size: 18px;
     transition-duration: 400ms;
     transition-property: width, left;
   }
+
+  .navbar{
+    position: sticky !important;
+  }
